@@ -14,7 +14,7 @@
 ``` kubectl get svc ```
 8. Nếu IP External đang ở trạng thái pending thì thực hiện câu lệnh: 
 ``` bash /Deploy/get_ip_external.sh ```
-9. Thêm IP external và domain vào file /etc/hosts ( mở shell mới --> chuyển sang thư mục K8S_LAB --> thực hiện lệnh )
+9. Thêm IP external và domain vào file /etc/hosts
 ``` bash Deploy/add_domain.sh ```
 10. Truy cập vào dịch vụ theo đường dẫn:
 ``` http://phuong.lv.com ```
