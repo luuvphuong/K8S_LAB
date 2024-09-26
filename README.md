@@ -1,5 +1,5 @@
 1. Download Source Code
-`git clone git@github.com:khongbach13/K8S_LAB.git`
+``` git clone git@github.com:khongbach13/K8S_LAB.git ```
 2. Chuyển sang thư mục K8S_LAB
 ```cd K8S_LAB ```
 3. Cài đặt Minikube
@@ -14,7 +14,7 @@
 ``` kubectl get svc ```
 8. Nếu IP External đang ở trạng thái pending thì thực hiện câu lệnh: 
 ``` bash /Deploy/get_ip_external.sh ```
-9. Thêm IP external và domain vào file /etc/hosts:
+9. Thêm IP external và domain vào file /etc/hosts ( mở shell mới --> chuyển sang thư mục K8S_LAB --> thực hiện lệnh )
 ``` bash Deploy/add_domain.sh ```
 10. Truy cập vào dịch vụ theo đường dẫn:
 ``` http://phuong.lv.com ```
