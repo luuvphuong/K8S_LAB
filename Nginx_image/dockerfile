@@ -1,0 +1,15 @@
+# Sử dụng hình ảnh chính thức của Nginx
+FROM nginx:latest
+
+# Sao chép tệp cấu hình tùy chỉnh vào container
+COPY nginx.conf /etc/nginx/nginx.conf
+
+# Sao chép các tệp web tĩnh vào container
+COPY index.html /usr/share/nginx/html/index.html
+
+EXPOSE 80
+
+# Thiết lập biến môi trường (tùy chọn)
+ENV NGINX_HOST=localhost
+ENV NGINX_PORT=80
+
