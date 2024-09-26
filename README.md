@@ -1,5 +1,5 @@
 1. Download Source Code
-``` git clone git@github.com:khongbach13/K8S_LAB.git  ```
+`git clone git@github.com:khongbach13/K8S_LAB.git`
 2. Chuyển sang thư mục K8S_LAB
 ```cd K8S_LAB ```
 3. Cài đặt Minikube
