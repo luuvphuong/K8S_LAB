@@ -5,7 +5,7 @@
 3. Cài đặt Minikube
 ``` bash IG_minikube.sh ```
 4. Build Image Nginx và push lên docker hub
-``` bash Nginx_image/build_dockerfile.sh
+``` bash Nginx_image/build_dockerfile.sh ```
 5. Triển khai Ingress Controller
 ``` bash Controller_Ingress/IG_Ingress_Controller.sh```
 6. Triển khai ứng dụng Nginx bằng k8s
